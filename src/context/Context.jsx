@@ -61,7 +61,7 @@ const ContextProvider = ({ children }) => {
     });
     setLoading(false);
   };
-  //   onSent("What is react js?");
+
   const contextValue = {
     input,
     setInput,

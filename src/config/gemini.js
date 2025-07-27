@@ -12,7 +12,7 @@ async function main(prompt) {
       },
     ],
   });
-  // Adjust this if the response structure is different
+
   return response.text || "";
 }
 
